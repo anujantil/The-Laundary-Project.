@@ -65,6 +65,15 @@
         color:#00005c;
     }
 
+    .main-part-button a
+    {
+        color: black;
+    }
+    .main-part-button:hover a
+    {
+        color: #fff;
+    }
+
     .main-part-button:hover .font-awesome-link
     {
        color: #fff;
@@ -412,6 +421,472 @@ li
 {
     transform: translateY(-10px);
 }
+
+/* FORTH-PART-OF-THE-WEBSITE */
+
+#mywebsite-4
+{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+    background-image: linear-gradient(to right, #b9ebcc, lightyellow);
+    
+}
+
+.contact-us-section
+{
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+    font-size: 20px;
+}
+.heading-part-4
+{
+    margin-bottom: 20px;
+    font-family: 'Vollkorn', serif;
+
+    color: blueviolet;
+}
+
+.contact-us-section-1
+{
+    padding-bottom: 70px;
+
+    font-size: 18px;
+}
+.contact-us-section-1 input
+{
+    width: 600px;
+    height: 30px;
+
+    padding: 20px;
+
+    border: 2px solid black;
+
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+}
+
+.account_creation_button
+{
+    margin-top: 20px;
+
+    color: white;
+
+    border-color: white;
+    padding: 10px;
+
+}
+
+.contact-us-section-1:hover .account_creation_button
+{
+    border:2px solid blue;
+    background-color: lightblue;
+    color: black;
+}
+
+/* FIFTH-PART-OF-THE-WEBSITE */
+
+#mywebsite-5
+{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(-90deg, #b9ebcc, lightyellow);
+}
+.main-heading-of-the-section
+{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.heading-part-5
+{
+    margin-bottom: 30px;
+    font-family: 'Vollkorn', serif;
+    color: #00005c
+}
+
+.tracking-system
+{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.heading-part-5-1
+{
+    margin-bottom: 20px;
+    font-family: 'Vollkorn', serif;
+}
+
+/* SIXTH-PART-OF-THE-WEBSITE */
+
+#mywebsite-6
+{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(to right, #b9ebcc, lightyellow);
+}
+.heading-part-6
+{
+    margin-bottom: 20px;
+    font-family: 'Vollkorn', serif;
+    color: #00005c;
+}
+.carousel-part-6
+{
+    margin-top: 60px;    
+}
+.carousel-part-6-image
+{
+    width: 700px;
+    height:  400px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* SEVENTH-PART-OF-THE-WEBSITE */
+
+#mywebsite-7
+{
+    text-align: center;
+
+    font-size: 20px;
+
+    padding-top: 70px;
+    padding-bottom: 40px;
+
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(-90deg, #b9ebcc, lightyellow);
+}
+
+.heading-part-7
+{
+    font-family: 'Vollkorn', serif;
+    color: #00005c;   
+}
+
+.heading-part-7-1
+{
+    margin-top: 30px;
+    font-family: 'Vollkorn', serif;
+    color: #00005c;   
+}
+
+.our-best-pricing-section-1
+{
+    display: flex;
+
+    justify-content: space-around;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.our-best-pricing-section-1 .flex-1
+{
+    margin-left: 250px;
+}
+
+.our-best-pricing-section-1 .flex-2
+{
+    margin-right: 250px;
+}
+
+.card
+{
+    border: 2px solid blue;
+    background-color: lightyellow;
+}
+.card-header
+{
+    border-bottom: 2px solid blue;
+
+    background-color: lightcyan;
+}
+
+/* MEDIA-QUERY-BREAKPOINT */
+
+@media (max-width: 1200px)
+{
+    .our-best-pricing-section-1 .flex-1
+    {
+        margin-left: 0px;
+    }
+    .our-best-pricing-section-1 .flex-2
+    {
+        margin-right: 0px;
+    }
+}
+
+
+/* EIGHTH-PART-OF-THE-WEBSITE */
+
+#mywebsite-8
+{
+    padding-top: 70px;
+
+    text-align: center;
+
+    padding-bottom: 40px;
+    font-size: 20px;
+
+    font-family: 'Merriweather', serif;  
+    background-image: linear-gradient(to right, #b9ebcc, lightyellow);  
+}
+
+.heading-part-8
+{
+    font-family: 'Vollkorn', serif;
+    color: #00005c;
+
+    margin-bottom: 50px;
+}
+
+label
+{
+    margin-top: 30px;
+}
+
+.ss
+{
+  display:flex;
+
+  text-align: left;
+
+  justify-content: space-around;
+
+  align-items: flex-start;  
+}
+
+.ss-1
+{
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+    margin-left: 400px;
+}
+
+.ss-2
+{
+   padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+    margin-right: 300px;
+}
+.ss input
+{
+    margin: 10px;
+}
+
+
+
+/* MEDIA-QUERY-BREAKPOINT */
+
+@media (max-width: 1200px)
+{
+    .ss-1
+    {
+        margin: 0px;
+
+        margin-left: 150px;
+    }
+    .ss-2
+    {
+        margin: 0px;
+
+        margin-right: 150px;
+    }
+}
+
+#input-1
+{
+    width: 400px;
+
+    border: 2px solid black;
+    padding: 5px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.order-button
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.order_button
+{
+    width: 150px;
+
+    background-color: lightblue;
+    border-color: blue;
+    color: black;
+
+}
+
+/* NINTH-SECTION-OF-THE-WEBSITE */
+
+#mywebsite-9
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;  
+    background-image: linear-gradient(-90deg, #b9ebcc, lightyellow);
+}
+
+.newsletter
+{
+    margin-bottom: 100px;
+}
+
+.heading-part-9
+{
+    font-family: 'Vollkorn', serif;
+    color: #00005c;
+}
+.mb-3
+{
+    width: 500px;
+    margin-left: 420px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.merge-button
+{
+    border-left: 2px solid black;
+
+    background-color: lightcyan;
+    border-color: green;
+
+    color: black;
+}
+
+/* MEDIA QUERY BREAKPOINT */
+
+@media (max-width: 1200px)
+{
+    .mb-3
+{
+    width: 500px;
+    margin-left: 220px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+}
+
+/* TENTH-PART-OF-THE-WEBSITE */
+
+#mywebsite-10
+{
+    font-size: 20px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    font-family: 'Merriweather', serif; 
+    background-image: linear-gradient(to right, #ff9234 , #a8df65);
+}
+
+.main-part-of-the-section-10
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.heading-part-10
+{
+    margin-bottom: 30px;
+    font-family: 'Vollkorn', serif;
+    color: #00005c;
+}
+
+.heading-part-10-1
+{
+    margin-bottom: 70px;
+    font-family: 'Vollkorn', serif;
+    color: #00005c;
+}
+
+.mb-10
+{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.merge-button-1
+{
+    border-left: 2px solid black;
+    background-color: lightcyan;
+    color: black;
+}
+
+.part-10-link-1
+{
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+}
+
+.part-10-link-2
+{
+    color: black;
+}
+
+/* MEDIA-QUERY-BREAKPOINT */
+@media (max-width: 1200px)
+{
+    .mb-10
+  {
+    width: 200px;
+    margin-left: 70px;
+  }
+
+}
+
+.flex-101
+{
+    margin-right: 10px;
+}
+.flex-103
+{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* COPYRIGHT-SECTION */
+
+.copyright-section
+{
+    font-size: 20px;
+    text-align:center;
+    padding:2px;
+    font-family: 'Merriweather', serif; 
+    background-color: lightcyan;
+    color: #000;
+}
+
+
+
 
 
 
