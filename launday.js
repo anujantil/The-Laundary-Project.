@@ -1,4 +1,5 @@
-var x,y;
+var x="";
+var y;
 var z=[];
 
 $(".account_creation_button").click(function()
@@ -31,7 +32,7 @@ $(".account_creation_button").click(function()
     {
         alert("Your Account is successfully created.");
         
-        x= $("#name-1").val()+$("#contact_number-1").val();
+        x+= $("#name-1").val()+$("#contact_number-1").val();
         y=$("#password-1").val();
 
         alert("Your username : "+x);
